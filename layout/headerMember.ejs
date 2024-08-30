@@ -1,0 +1,147 @@
+<nav
+  class="navbar navbar-light custom-navbar navbar-expand-xl mt-sm-7 mb-sm-3 mt-0 mb-0 container"
+>
+  <div class="d-flex align-items-center container-fluid">
+    <a class="navbar-brand me-sm-5 me-0" href="../pages/index.html"
+      ><img
+        src="../assets/images/week8-learning/logo.png"
+        alt="logo"
+        width="200px"
+    /></a>
+
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="offcanvasNavbar"
+      aria-labelledby="offcanvasNavbarLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">探索全部</h5>
+        <button
+          type="button"
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="list-unstyled d-none d-xl-flex align-items-center">
+          <li class="navbar-nav px-5">
+            <div class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle p-0"
+                href="#"
+                id="offcanvasNavbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                探索
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="offcanvasNavbarDropdown"
+              >
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <form class="d-flex position-relative">
+              <span
+                class="material-icons position-absolute top-50 start-0 translate-middle-y ms-1"
+              >
+                search
+              </span>
+              <input
+                class="form-control me-2 ps-7"
+                type="search"
+                placeholder="搜尋各種音樂、數學、程式及設計課程"
+                aria-label="Search"
+              />
+              <button
+                class="btn custom-btn-m custom-btn-primary position-absolute top-50 end-0 translate-middle-y me-1"
+                type="submit"
+              >
+                搜尋
+              </button>
+            </form>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="d-flex">
+      <ul class="navbar-nav align-items-lg-center flex-row">
+        <!-- 通知 icon -->
+        <li class="nav-item me-3 pt-1">
+          <button
+            type="button"
+            class="btn custom-btn-sm position-relative notifications"
+          >
+            <span class="material-symbols-outlined unfilled">
+              notifications
+            </span>
+            <span
+              class="position-absolute top-0 start-100 translate-middle p-1 bg-primary border border-light rounded-circle"
+            >
+              <span class="visually-hidden">New alerts</span>
+            </span>
+          </button>
+        </li>
+
+        <!-- 購物車 icon -->
+        <li class="nav-item me-3 pt-1">
+          <button
+            type="button"
+            class="btn custom-btn-sm position-relative shopping-cart"
+          >
+            <span class="material-symbols-outlined"> shopping_cart </span>
+            <span
+              class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary inter-font"
+            >
+              2
+              <span class="visually-hidden">unread messages</span>
+            </span>
+          </button>
+        </li>
+
+        <!-- 登入 / 註冊按鈕 -->
+        <li class="nav-item d-none">
+          <a class="btn custom-btn btn-primary fw-bold" href="#">登入 / 註冊</a>
+        </li>
+
+        <!-- 用戶頭像及名稱 -->
+        <li class="nav-item d-none d-xl-block">
+          <div class="d-flex gap-1 align-items-center">
+            <img
+              src="../assets/images/week8-learning/avatar-1.png"
+              alt=""
+              width="44px"
+              height="44px"
+            />
+            <p class="text-neutral-400 fw-bold">Jessica</p>
+          </div>
+        </li>
+      </ul>
+
+      <!-- 漢堡選單 -->
+      <button
+        class="navbar-toggler border-0"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </div>
+</nav>

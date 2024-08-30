@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>購買完成</title>
+  </head>
+  <body>
+    <%- include('./layout/headerMember'); -%>
+
+    <div class="container px-0">
+      <!-- 恭喜購買完成 -->
+      <div class="bg-white rounded-sm-4 rounded-0 py-md-10 py-7 px-5">
+        <div
+          class="d-flex flex-column align-items-center mx-auto order-success"
+        >
+          <div class="d-flex align-items-center">
+            <span class="material-icons text-success me-md-7 me-3">
+              check_circle
+            </span>
+            <div class="fs-md-1 fs-3">
+              <h1>恭喜，Jessica！</h1>
+              <h1>您已購買完成</h1>
+            </div>
+          </div>
+          <p class="my-7">
+            感謝您在 Learning
+            購買了課程，我們已將訂單相關資訊發送至您的電子信箱。
+          </p>
+          <div
+            class="d-flex flex-md-row flex-column justify-content-center gap-3 w-100"
+          >
+            <button
+              type="button"
+              class="custom-btn custom-btn-secondary px-10 fw-bold text-nowrap"
+            >
+              立即前往上課
+            </button>
+            <button
+              type="button"
+              class="custom-btn custom-btn-primary px-10 fw-bold text-nowrap"
+            >
+              查看訂單記錄
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- 更多程式學習相關課程 -->
+      <div
+        class="d-flex flex-column gap-3 mt-md-11 mt-7 mb-md-13 mb-10 px-md-0 px-2"
+      >
+        <div class="d-flex gap-1">
+          <div>
+            <img
+              src="../assets/images/week8-learning/deco/flower-5-1.png"
+              alt=""
+              width="24px"
+              height="24px"
+            />
+          </div>
+          <h5 class="d-inline-block">更多程式學習相關課程</h5>
+        </div>
+        <div class="row g-0 gap-5 d-flex">
+          <div class="col-lg-3 custom-card">
+            <div class="position-relative">
+              <img
+                src="../assets/images/week8-learning/course-5.png"
+                class="custom-card-img-top"
+                alt="..."
+              />
+              <span
+                class="badge badge-danger fw-bold position-absolute top-0 mt-3 ms-3"
+                >限時 8 折 🔥</span
+              >
+            </div>
+            <div class="custom-card-body">
+              <h6 class="card-title mb-3">
+                小白也會！從零開始學習 Python 程式設計
+              </h6>
+              <div class="d-flex justify-content-between">
+                <div class="d-flex gap-1 align-items-center">
+                  <img
+                    src="../assets/images/week8-learning/avatar-2.png"
+                    alt=""
+                  />
+                  <p>Kelly Hsu</p>
+                </div>
+                <div class="text-end">
+                  <p class="price-primary">NT$ 2,480</p>
+                  <p class="price-delete">NT$ 3,200</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="card-footer d-flex justify-content-between align-items-center"
+            >
+              <div>
+                <span class="badge-sm custom-badge">程式開發</span>
+                <p>已有 420 位同學加入</p>
+              </div>
+              <div>
+                <span class="material-icons text-star align-bottom">
+                  star
+                </span>
+                <span>4.0</span>
+                <span>(333)</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 custom-card">
+            <div class="position-relative">
+              <img
+                src="../assets/images/week8-learning/course-6.png"
+                class="custom-card-img-top"
+                alt="..."
+              />
+              <span
+                class="badge badge-danger fw-bold position-absolute top-0 mt-3 ms-3"
+                >限時 8 折 🔥</span
+              >
+            </div>
+            <div class="custom-card-body">
+              <h6 class="card-title mb-3">全面掌握 JavaScript 開發技術</h6>
+              <div class="d-flex justify-content-between">
+                <div class="d-flex gap-1 align-items-center">
+                  <img
+                    src="../assets/images/week8-learning/avatar-2.png"
+                    alt=""
+                  />
+                  <p>Kelly Hsu</p>
+                </div>
+                <div class="text-end">
+                  <p class="price-primary">NT$ 2,480</p>
+                  <p class="price-delete">NT$ 3,200</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="card-footer d-flex justify-content-between align-items-center"
+            >
+              <div>
+                <span class="badge-sm custom-badge">程式開發</span>
+                <p>已有 420 位同學加入</p>
+              </div>
+              <div>
+                <span class="material-icons text-star align-bottom">
+                  star
+                </span>
+                <span>4.0</span>
+                <span>(333)</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 custom-card">
+            <div class="position-relative">
+              <img
+                src="../assets/images/week8-learning/course-7.png"
+                class="custom-card-img-top"
+                alt="..."
+              />
+              <span
+                class="badge badge-danger fw-bold position-absolute top-0 mt-3 ms-3"
+                >限時 8 折 🔥</span
+              >
+            </div>
+            <div class="custom-card-body">
+              <h6 class="card-title mb-3">HTML & CSS 網頁設計基礎教程</h6>
+              <div class="d-flex justify-content-between">
+                <div class="d-flex gap-1 align-items-center">
+                  <img
+                    src="../assets/images/week8-learning/avatar-2.png"
+                    alt=""
+                  />
+                  <p>Kelly Hsu</p>
+                </div>
+                <div class="text-end">
+                  <p class="price-primary">NT$ 2,480</p>
+                  <p class="price-delete">NT$ 3,200</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="card-footer d-flex justify-content-between align-items-center"
+            >
+              <div>
+                <span class="badge-sm custom-badge">程式開發</span>
+                <p>已有 420 位同學加入</p>
+              </div>
+              <div>
+                <span class="material-icons text-star align-bottom">
+                  star
+                </span>
+                <span>4.0</span>
+                <span>(333)</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 custom-card">
+            <div class="position-relative">
+              <img
+                src="../assets/images/week8-learning/course-8.png"
+                class="custom-card-img-top"
+                alt="..."
+              />
+              <span
+                class="badge badge-danger fw-bold position-absolute top-0 mt-3 ms-3"
+                >限時 8 折 🔥</span
+              >
+            </div>
+            <div class="custom-card-body">
+              <h6 class="card-title mb-3">
+                更進一步！深入學習 Node.js 與後端開發
+              </h6>
+              <div class="d-flex justify-content-between">
+                <div class="d-flex gap-1 align-items-center">
+                  <img
+                    src="../assets/images/week8-learning/avatar-2.png"
+                    alt=""
+                  />
+                  <p>Kelly Hsu</p>
+                </div>
+                <div class="text-end">
+                  <p class="price-primary">NT$ 2,480</p>
+                  <p class="price-delete">NT$ 3,200</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="card-footer d-flex justify-content-between align-items-center"
+            >
+              <div>
+                <span class="badge-sm custom-badge">程式開發</span>
+                <p>已有 420 位同學加入</p>
+              </div>
+              <div>
+                <span class="material-icons text-star align-bottom">
+                  star
+                </span>
+                <span>4.0</span>
+                <span>(333)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

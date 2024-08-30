@@ -1,0 +1,24 @@
+.custom-card {
+  background: #ffffff;
+  max-width: 306px;
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0px 25px 50px -12px #0000001f;
+}
+
+.custom-card-img-top {
+  display: block;
+  object-fit: cover;
+  overflow: hidden; /* 確保圖片會被圓角裁剪 */
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.custom-card-body {
+  padding: 16px;
+}
+
+.card-footer {
+  padding: 16px;
+  border-top: 1px solid var(--Neutral-40, #ececec);
+}

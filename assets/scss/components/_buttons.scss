@@ -1,0 +1,30 @@
+.custom-btn {
+  padding: 16px 32px;
+}
+.custom-btn-m {
+  padding: 12px 16px;
+}
+.custom-btn-sm {
+  padding: 8px 12px;
+}
+
+.custom-btn-primary {
+  background: $primary;
+  color: $neutral;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  &:hover {
+    background: $primary-dark;
+  }
+}
+
+.custom-btn-secondary {
+  background: $neutral;
+  color: $primary;
+  border: 1px solid $primary;
+  border-radius: 12px;
+  &:hover {
+    background: $primary;
+    color: $neutral;
+  }
+}

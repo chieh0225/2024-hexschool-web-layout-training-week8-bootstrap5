@@ -1,0 +1,52 @@
+.custom-navbar {
+  background: white;
+  border-radius: 100px;
+  padding: 16px 40px;
+  @include mobile {
+    border-radius: 0;
+    padding: 12px;
+  }
+}
+
+.navbar-brand img {
+  @include mobile {
+    max-width: 125px;
+  }
+}
+
+.offcanvas-body .form-control {
+  width: 425px;
+}
+
+.dropdown-toggle {
+  display: flex;
+  align-items: center;
+  &:after {
+    content: "\e313"; //記得加上反斜線
+    font-family: "Material Symbols Outlined";
+    border: none;
+  }
+}
+
+.notifications .material-symbols-outlined {
+  vertical-align: middle;
+}
+.notifications .position-absolute {
+  margin-top: 4px;
+  margin-left: -8px;
+}
+
+.shopping-cart .material-symbols-outlined {
+  vertical-align: middle;
+}
+.shopping-cart .position-absolute {
+  margin-top: 4px;
+  margin-left: -12px;
+  font-size: $spacer * 0.75;
+  line-height: $spacer;
+  letter-spacing: 0.02em;
+  padding: 4px 8px;
+}
+.shopping-cart .badge {
+  border: 2px solid #ffffff;
+}

@@ -1,0 +1,21 @@
+.badge {
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 100px;
+}
+.badge-sm {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 100px;
+}
+
+.custom-badge {
+  color: $neutral-400;
+  background: $neutral-200;
+  margin-bottom: 4px;
+}
+
+.badge-danger {
+  color: $danger;
+  background: $danger-100;
+}

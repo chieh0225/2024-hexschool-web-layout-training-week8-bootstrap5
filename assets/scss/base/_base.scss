@@ -1,0 +1,58 @@
+body {
+  background-color: $neutral-100;
+}
+
+picture {
+  max-width: 100%;
+  height: auto;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  // text-decoration: none; //已設定 $link-decoration: none
+  color: inherit;
+  display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  // margin-bottom: 0;
+  letter-spacing: 0.02em;
+}
+
+p {
+  // margin-bottom: 0;
+  letter-spacing: 0.02em; //em 以目前 p 標籤的文字大小做計算
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+input:focus {
+  caret-color: $input-caret-color;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+}
+
+.price-primary {
+  color: $primary;
+  font-size: 20px;
+  font-weight: 700;
+}
+.price-delete {
+  color: #808080;
+  font-size: 14px;
+}

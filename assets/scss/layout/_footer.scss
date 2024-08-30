@@ -1,0 +1,28 @@
+.footer {
+  background: #282828;
+  border-radius: 80px 80px 0px 0px;
+  padding: 100px 0px;
+  @include mobile-larger {
+    padding: 48px 12px;
+  }
+}
+
+.nav-menu {
+  gap: 32px;
+  @include mobile-larger {
+    gap: 24px;
+  }
+}
+.nav-menu a {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.copyright {
+  color: #d4d4d4;
+  font-size: 12px !important;
+  @include mobile-larger {
+    margin-top: 32px;
+    font-size: 14px;
+  }
+}
