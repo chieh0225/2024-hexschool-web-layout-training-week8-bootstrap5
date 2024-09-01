@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>講師介紹</title>
+  </head>
+  <body>
+    <%- include('./layout/headerMember'); -%>
+
+    <div class="banner">
+      <picture>
+        <source
+          media="(min-width: 375px)"
+          srcset="../assets/images/week8-learning/hero-5.png"
+        />
+        <img src="../assets/images/week8-learning/hero-sm-5.png" alt="" />
+      </picture>
+    </div>
+
+    <div>
+      <div class="container px-0">
+        <!-- 六角學院 -->
+        <div
+          class="d-flex flex-lg-row flex-column align-items-lg-start align-items-center gap-lg-10 gap-5 instructor"
+        >
+          <img
+            src="../assets/images/hexschool.svg"
+            alt="六角學院"
+            width="240px"
+            height="240px"
+            class="instructor-avatar rounded-circle object-fit-cover bg-white border-4 border-white"
+          />
+
+          <div
+            class="d-flex flex-column align-items-lg-start align-items-center gap-lg-5 gap-3 mt-lg-12 mt-0 px-lg-0 px-2"
+          >
+            <h1 class="fs-md-1 fs-3">六角學院</h1>
+            <div class="d-flex">
+              <h6 class="text-primary me-md-5 me-2">
+                4<span class="text-neutral-400 fw-normal pl-4">堂課</span>
+              </h6>
+              <h6 class="text-primary px-md-5 px-2 border-x border-neutral-300">
+                8463<span class="text-neutral-400 fw-normal pl-4">收藏數</span>
+              </h6>
+              <h6 class="text-primary ms-md-5 ms-2">
+                20,218<span class="text-neutral-400 fw-normal pl-4"
+                  >個學生</span
+                >
+              </h6>
+            </div>
+            <p class="text-md-sm text-neutral-400">
+              六角學院 是一所線上程式開發學習單位，目前已累積 20,000
+              名學員，讓更多人藉由線上學習在職涯規劃上有更多的選擇是我們的使命是，如果您贊同我們的理念，歡迎加入六角。
+              我們將深入了解您想發展的領域，每位實習生我們都會量身打造專屬於您的舞台，並讓您實際瞭解公司營運
+              Know how。
+            </p>
+            <div class="d-flex gap-3">
+              <a href="#"
+                ><img src="../assets/images/btn_line.svg" alt="line"
+              /></a>
+              <a href="#"><img src="../assets/images/btn_yt.svg" alt="yt" /></a>
+              <a href="#"><img src="../assets/images/btn_fb.svg" alt="fb" /></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 六角學院開的課 -->
+        <div
+          class="d-flex flex-column gap-3 mt-md-11 mt-7 mb-md-13 mb-10 px-md-0 px-2"
+        >
+          <div class="d-flex gap-1">
+            <div>
+              <img
+                src="../assets/images/week8-learning/deco/flower-5-1.png"
+                alt=""
+                width="24px"
+                height="24px"
+              />
+            </div>
+            <h5 class="d-inline-block">六角學院開的課</h5>
+          </div>
+          <%- include('./layout/courseGrid'); -%>
+        </div>
+      </div>
+    </div>
+
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

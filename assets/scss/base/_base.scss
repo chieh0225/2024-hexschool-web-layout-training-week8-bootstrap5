@@ -47,6 +47,17 @@ input:focus {
   font-family: "Inter", sans-serif;
 }
 
+.text-md-sm {
+  font-size: 16px;
+  @include mobile {
+    font-size: 14px;
+  }
+}
+
+.pl-4 {
+  padding-left: 4px;
+}
+
 .price-primary {
   color: $primary;
   font-size: 20px;
@@ -55,4 +66,8 @@ input:focus {
 .price-delete {
   color: #808080;
   font-size: 14px;
+}
+
+.object-fit {
+  object-fit: cover;
 }

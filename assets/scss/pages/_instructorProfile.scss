@@ -1,0 +1,31 @@
+body {
+  background: #ffffff;
+}
+
+.border-x {
+  font-style: 16px;
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
+
+.border-neutral-300 {
+  border-color: $neutral-300 !important;
+}
+
+.banner picture {
+  display: block;
+  @include mobile-larger {
+    padding-bottom: 40px;
+  }
+}
+
+.instructor {
+  margin-top: -80px;
+}
+.instructor-avatar {
+  padding: 20px;
+  @include mobile-larger {
+    max-width: 80px;
+    padding: 10px;
+  }
+}
