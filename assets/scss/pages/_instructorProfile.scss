@@ -3,7 +3,6 @@ body {
 }
 
 .border-x {
-  font-style: 16px;
   border-left: 1px solid;
   border-right: 1px solid;
 }
@@ -27,5 +26,13 @@ body {
   @include mobile-larger {
     max-width: 80px;
     padding: 10px;
+  }
+}
+
+.course-stats h6,
+.course-stats span {
+  font-size: 20px;
+  @include mobile {
+    font-size: 14px;
   }
 }
